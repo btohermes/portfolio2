@@ -2,12 +2,16 @@ import React from 'react';
 
 import classes from './App.css';
 
-import Layout from './components/Layout/Layout';
+import Layout from './containers/Layout/Layout';
 
 function App() {
   return (
     <div className={classes.App}>
-      <Layout />
+      <Layout>
+        <div className={classes.test}>A</div>
+        <div>B</div>
+        <div>C</div>
+      </Layout>
     </div>
   );
 }
