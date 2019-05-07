@@ -8,7 +8,7 @@ function App() {
   return (
     <div className={classes.App}>
       <Layout>
-        <div className={classes.test}>A</div>
+        <div>A</div>
         <div>B</div>
         <div>C</div>
       </Layout>

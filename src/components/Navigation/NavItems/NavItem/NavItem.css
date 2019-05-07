@@ -1,0 +1,20 @@
+.NavItem {
+  color: green;
+  margin: 0 15px;
+}
+
+.NavItem:hover {
+  color: blueviolet;
+  animation: borderShow 0.1s ease-out forwards;
+}
+
+@keyframes borderShow {
+  0% {
+    border-bottom: 0px solid #fff;
+  }
+
+  100% {
+    font-weight: bold;
+    border-bottom: 3.2px solid #fff;
+  }
+}
