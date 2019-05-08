@@ -7,11 +7,7 @@ import Layout from './containers/Layout/Layout';
 function App() {
   return (
     <div className={classes.App}>
-      <Layout>
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-      </Layout>
+      <Layout />
     </div>
   );
 }

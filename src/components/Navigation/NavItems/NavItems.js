@@ -5,8 +5,8 @@ import NavItem from './NavItem/NavItem';
 const NavItems = props => {
   return (
     <Fragment>
-      <NavItem title='Button uno' />
-      <NavItem title='Button dos' />
+      <NavItem title='Who I am' />
+      <NavItem title='Projects' />
     </Fragment>
   );
 };
