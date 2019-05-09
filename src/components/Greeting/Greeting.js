@@ -1,14 +1,12 @@
 import React from 'react';
 
 import classes from './Greeting.css';
+import MacTerminal from '../../containers/MacTerminal/MacTerminal';
 
 const Greeting = props => {
   return (
     <div className={classes.image}>
-      <p className={classes.p}>...Hello world</p>
-      <p className={classes.p}>
-        ...My name is Hermes<span className={classes.span}>_</span>
-      </p>
+      <MacTerminal />
     </div>
   );
 };

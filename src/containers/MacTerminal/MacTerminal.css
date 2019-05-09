@@ -1,0 +1,134 @@
+.MacTerminal {
+  min-height: 100px;
+  width: 400px;
+  margin: auto;
+  background: white;
+  -webkit-box-shadow: 0px 0px 81px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 81px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 81px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+}
+.MacTerminal__head {
+  min-height: 1.2rem;
+  background: linear-gradient(
+    to top,
+    rgba(216, 216, 216, 1),
+    rgba(216, 216, 216, 0.3)
+  );
+  border: 0.1rem solid rgb(216, 216, 216);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.MacTerminal__Body {
+  min-height: 333px;
+  color: #259f1a;
+  background: #1e181a;
+  font-family: courier-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  border: 0.1rem solid rgb(216, 216, 216);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.MacTerminal__Body div {
+  text-align: left;
+}
+
+.dotRed {
+  height: 10px;
+  width: 10px;
+  margin: 0 0.5px;
+  margin-left: 5px;
+  background-color: rgb(245, 89, 84);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotRed:hover {
+  background-color: rgb(245, 89, 84, 0.6);
+}
+
+.dotYellow {
+  height: 10px;
+  width: 10px;
+  margin: 0 0.5px;
+  background-color: rgb(253, 190, 65);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotYellow:hover {
+  background-color: rgb(253, 190, 65, 0.6);
+}
+
+.dotGreen {
+  height: 10px;
+  width: 10px;
+  margin: 0 0.5px;
+  background-color: rgb(53, 202, 75);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotGreen:hover {
+  background-color: rgb(53, 202, 75, 0.6);
+}
+
+.flicker {
+  animation: flickerAnimation 1.2s infinite;
+}
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animate-flicker {
+  -webkit-animation: flickerAnimation 0.5s infinite;
+  -moz-animation: flickerAnimation 0.5s infinite;
+  -o-animation: flickerAnimation 0.5s infinite;
+  animation: flickerAnimation 0.5s infinite;
+}
