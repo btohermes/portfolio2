@@ -1,13 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import NavItem from './NavItem/NavItem';
+import MenuButton from '../../UI/MenuButton/MenuButton';
+import classes from './NavItems.css';
 
 const NavItems = props => {
   return (
-    <Fragment>
+    <div className={classes.NavItem__Wrapper}>
       <NavItem title='Who I am' />
       <NavItem title='Projects' />
-    </Fragment>
+    </div>
   );
 };
 

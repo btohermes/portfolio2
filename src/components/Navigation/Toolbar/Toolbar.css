@@ -2,10 +2,29 @@
   color: red;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 56px;
   background: #ffda79;
   -webkit-box-shadow: 0px 4px 26px -5px rgba(102, 102, 102, 1);
   -moz-box-shadow: 0px 4px 26px -5px rgba(102, 102, 102, 1);
   box-shadow: 0px 4px 26px -5px rgba(102, 102, 102, 1);
+}
+
+.ShadowDiv {
+  opacity: 0;
+  min-width: 35px;
+}
+
+/*=======================================================================
+Media Queries
+=========================================================================*/
+
+@media (min-width: 550px) {
+  .OnlyPhone {
+    display: none;
+  }
+
+  .ShadowDiv {
+    display: none;
+  }
 }

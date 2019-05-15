@@ -1,0 +1,17 @@
+.MenuButton {
+  min-width: 50px;
+  background: rebeccapurple;
+}
+
+.Container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Bar {
+  width: 35px;
+  height: 5px;
+  background-color: green;
+  margin: 2px 0;
+  border-radius: 10px;
+}
