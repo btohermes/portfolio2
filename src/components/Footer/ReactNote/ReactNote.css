@@ -1,0 +1,9 @@
+.a {
+  display: inline-block;
+  transform: scale(2.1);
+  color: turquoise;
+}
+
+.Text {
+  margin-bottom: 10px;
+}

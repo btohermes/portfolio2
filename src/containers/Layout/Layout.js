@@ -4,8 +4,8 @@ import Context from '../../context/context';
 
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import Greeting from '../../components/Greeting/Greeting';
-import Backdrop from '../../components/UI/Backdrop/Backdrop';
 import SideDrawer from '../../components/UI/SideDrawer/SideDrawer';
+import Footer from '../../components/Footer/Footer';
 
 class Layout extends Component {
   state = {
@@ -33,15 +33,16 @@ class Layout extends Component {
         >
           <Toolbar />
           <Greeting />
-          <Backdrop
+          {/* <Backdrop
             show={this.state.showSideDrawer}
             clicked={this.sideDrawerCloseHandler}
-          />
-          <SideDrawer>
+          /> */}
+          <SideDrawer
             open={this.state.showSideDrawer}
             closed={this.sideDrawerCloseHandler}
-          </SideDrawer>
+          />
         </Context.Provider>
+        <Footer />
       </Fragment>
     );
   }
