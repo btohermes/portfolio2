@@ -1,0 +1,19 @@
+.Technologies {
+  min-height: 50px;
+  width: 80px;
+  height: 30rem;
+  width: 20rem;
+  margin: 15px 0px;
+  box-shadow: 10px 14px 11px -3px purple;
+  background: #ffda79;
+}
+
+/*=======================================================================
+Media Queries
+=========================================================================*/
+
+@media (min-width: 450px) {
+  .Technologies {
+    margin: 0px;
+  }
+}

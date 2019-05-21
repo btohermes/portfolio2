@@ -1,0 +1,18 @@
+.AboutMe {
+  min-height: 800px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+/*=======================================================================
+Media Queries
+=========================================================================*/
+
+@media (min-width: 450px) {
+  .AboutMe {
+    grid-template-columns: 1fr 1fr;
+    height: 11vh;
+  }
+}

@@ -6,6 +6,7 @@ import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import Greeting from '../../components/Greeting/Greeting';
 import SideDrawer from '../../components/UI/SideDrawer/SideDrawer';
 import Footer from '../../components/Footer/Footer';
+import AboutMe from '../../components/AboutMe/AboutMe';
 
 class Layout extends Component {
   state = {
@@ -42,6 +43,7 @@ class Layout extends Component {
             closed={this.sideDrawerCloseHandler}
           />
         </Context.Provider>
+        <AboutMe />
         <Footer />
       </Fragment>
     );
