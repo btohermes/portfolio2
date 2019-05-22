@@ -18,6 +18,7 @@ class MacTerminal extends Component {
             <div>Last login:{this.date}</div>
             <div>Hello world!</div>
             <div>My name is Hermes. I am a software developer</div>
+            <div>{this.props.joke}</div>
             <div>Please press any key to continue</div>
             <div>
               ><span className={classes.flicker}>_</span>

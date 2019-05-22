@@ -6,6 +6,37 @@
   margin: 15px 0px;
   box-shadow: 10px 14px 11px -3px purple;
   background: #ffda79;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.Technologies__fullWidth {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.Technologies__Center {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+}
+
+.Technologies__Center_1 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 4;
+  grid-row-end: span 1;
+}
+
+.Technologies__Center_2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: span 1;
 }
 
 /*=======================================================================
