@@ -7,6 +7,7 @@ import Greeting from '../../components/Greeting/Greeting';
 import SideDrawer from '../../components/UI/SideDrawer/SideDrawer';
 import Footer from '../../components/Footer/Footer';
 import AboutMe from '../../components/AboutMe/AboutMe';
+import Projects from '../Projects/Projects';
 
 class Layout extends Component {
   state = {

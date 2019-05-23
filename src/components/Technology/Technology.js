@@ -6,7 +6,7 @@ import icon from '../../assets/images/css.png';
 const Technology = props => {
   return (
     <div className={classes.Technology}>
-      <img src={icon} alt={props.alt} className={classes.Technology} />
+      <img src={props.src} alt={props.alt} className={classes.Technology} />
     </div>
   );
 };

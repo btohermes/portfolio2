@@ -7,7 +7,7 @@ const MeCard = props => {
     <div>
       <div className={classes.MeCard}>
         <div className={classes.Img} />
-        <div className={classes.Clip} />
+        <div className={classes.Clip}>My Story</div>
       </div>
     </div>
   );
