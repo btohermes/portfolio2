@@ -6,6 +6,10 @@
   justify-items: center;
 }
 
+.SlideRight {
+  transition: slideRight 1s infinite;
+}
+
 /*=======================================================================
 Media Queries
 =========================================================================*/
@@ -14,5 +18,19 @@ Media Queries
   .AboutMe {
     grid-template-columns: 1fr 1fr;
     height: 11vh;
+  }
+}
+
+/*=======================================================================
+Animations
+=========================================================================*/
+
+@keyframes slideRight {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translate(0%);
   }
 }

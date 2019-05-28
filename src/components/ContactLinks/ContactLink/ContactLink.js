@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 
 import classes from './ContactLink.css';
-import { brotliCompress } from 'zlib';
 
 const ContactLink = props => {
   return (

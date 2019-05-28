@@ -35,16 +35,13 @@ class Layout extends Component {
         >
           <Toolbar />
           <Greeting />
-          {/* <Backdrop
-            show={this.state.showSideDrawer}
-            clicked={this.sideDrawerCloseHandler}
-          /> */}
           <SideDrawer
             open={this.state.showSideDrawer}
             closed={this.sideDrawerCloseHandler}
           />
         </Context.Provider>
         <AboutMe />
+        <Projects />
         <Footer />
       </Fragment>
     );

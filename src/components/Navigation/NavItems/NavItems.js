@@ -7,8 +7,12 @@ import classes from './NavItems.css';
 const NavItems = props => {
   return (
     <div className={classes.NavItem__Wrapper}>
-      <NavItem title='Who I am' />
-      <NavItem title='Projects' />
+      <a href='#whoAmI' className={classes.Anchor}>
+        <NavItem title='My Story' />
+      </a>
+      <a href='#projects' className={classes.Anchor}>
+        <NavItem title='Projects' />
+      </a>
     </div>
   );
 };

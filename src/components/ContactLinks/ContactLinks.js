@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import ContactLink from './ContactLink/ContactLink';
 import classes from './ContactLinks.css';
 
