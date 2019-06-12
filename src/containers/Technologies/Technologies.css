@@ -1,7 +1,7 @@
-.Technologies {
+/* .Technologies {
   min-height: 50px;
   width: 80px;
-  height: 30rem;
+  height: 36rem;
   width: 20rem;
   margin: 15px 0px;
   box-shadow: 10px 14px 11px -3px grey;
@@ -11,6 +11,40 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
+} */
+.Technologies {
+  width: 20rem;
+  height: 36rem;
+  margin: 15px 0px;
+  box-shadow: 10px 14px 11px -3px grey;
+  background: #ffda79;
+}
+
+.Technologies__title {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Technologies__img_html {
+  width: 250px;
+}
+
+.Technologies__img_node {
+  width: 140px;
+}
+
+.Technologies__img_react {
+  width: 140px;
+}
+
+.Technologies__img_mySql {
+  width: 140px;
+}
+
+.Technologies__img_sqlServer {
+  width: 140px;
 }
 
 .Technologies__fullWidth {

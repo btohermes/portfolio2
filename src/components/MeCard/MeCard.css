@@ -1,6 +1,6 @@
 .MeCard {
   min-height: 50px;
-  height: 30rem;
+  height: 36rem;
   width: 20rem;
   margin: 15px 0px;
   box-shadow: 10px 14px 11px -3px grey;
@@ -8,7 +8,7 @@
 
 .Clip {
   background: #ffda79;
-  height: 4rem;
+  height: 10rem;
 }
 
 .Img {

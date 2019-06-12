@@ -14,10 +14,10 @@ const ContactLinks = props => {
         iconClass={'fab fab fa-github'}
         links={'https://github.com/btohermes'}
       />
-      <ContactLink
+      {/* <ContactLink
         iconClass={'fab fa-twitter'}
         links={'https://twitter.com/Hermes34213439'}
-      />
+      /> */}
     </div>
   );
 };

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import classes from './Projects.css';
 
 import Project from '../../components/Project/Project';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import axios_firebase from '../../axios-firebase';
 
 class Projects extends Component {
@@ -27,7 +28,7 @@ class Projects extends Component {
   render() {
     return (
       <div id='projects'>
-        <div className={classes.Projects__Bar}>Projects</div>
+        <SectionTitle Title='Projects' />
         <div className={classes} />
         {this.state.projects.map(project => {
           console.log(project);
